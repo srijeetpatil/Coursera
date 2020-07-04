@@ -1,0 +1,38 @@
+#copyRight{
+	text-align: center;
+}
+#footer{
+	background-color: #D1C4E9;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+.row-header{
+	margin: 0px auto;
+	padding: 0px auto;
+	font-size: 80%;
+}
+.jumbotron{
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;	
+	background: #9575CD;
+	color: floralwhite;
+}
+.align-self-center{
+	padding: 70px 70px 70px 70px;
+}
+.para{
+	width: 65%;
+}
+
+@media (min-width: 200px){
+	.jumbotron{
+	padding: 30px 10px 30px 10px;
+	margin: 20px auto;	
+	background: #9575CD;
+	color: floralwhite;
+	}
+	.para{
+		width:100%;
+	}
+
+}
