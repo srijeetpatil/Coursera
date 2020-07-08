@@ -21,18 +21,27 @@
 	padding: 70px 70px 70px 70px;
 }
 .para{
-	width: 65%;
+	width: 72%;
 }
 
-@media (min-width: 200px){
+@media screen and (max-width: 800px){
+	h1{
+		font-size: 36px;
+	}
 	.jumbotron{
-	padding: 30px 10px 30px 10px;
-	margin: 0px auto;	
-	background: #9575CD;
-	color: floralwhite;
+		margin: 0px auto;	
+		background: #9575CD;
+		color: floralwhite;
 	}
-	.para{
-		width:100%;
+	.col-12{
+		margin: 0px auto;
+		padding: 0px;
 	}
-
+	.our{
+		padding: 15px;
+	}
+	.mobile{
+		width: 50%;
+		float:left;
+	}
 }
