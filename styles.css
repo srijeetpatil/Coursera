@@ -23,6 +23,9 @@
 .para{
 	width: 72%;
 }
+.navbar-color{
+	background-color: #492e9e;
+}
 
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -44,5 +47,8 @@
 	.mobile{
 		width: 50%;
 		float:left;
+	}
+	.navbar-color{
+		background-color: #492e9e;
 	}
 }
