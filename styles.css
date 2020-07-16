@@ -26,6 +26,13 @@
 .navbar-color{
 	background-color: #492e9e;
 }
+.center{
+	margin:auto;
+	width:50%;
+}
+.this{
+	padding-top:70px;
+}
 
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -51,4 +58,11 @@
 	.navbar-color{
 		background-color: #492e9e;
 	}
+	.object{
+		text-align: center;
+		margin: auto;
+	}
+	.align-self-center{
+	padding: 35px 35px 35px 35px;
+}
 }
