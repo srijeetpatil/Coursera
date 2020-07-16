@@ -33,6 +33,10 @@
 .this{
 	padding-top:70px;
 }
+.object{
+		text-align: center;
+		margin: auto;
+	}
 
 
 @media (min-width: 320px) and (max-width: 480px) {
