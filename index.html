@@ -107,30 +107,42 @@
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="form-group">
-                                <label class="col-12 col-sm-2 col-form-label"><strong>Section</strong></label>
-                                <div class="form-check form-check-inline align-sm-center">
-                                    <div>
-                                        <label class="sectionB" style="background-color:green;">Non-Smoking</label>
-                                        <label class="sectionB" style="background-color:red;">Smoking</label>
-                                    </div>
+                            <div class="form-group row">
+                                <label class="col-12 col-sm-2 col-form-label align-sm-center"><strong>Section</strong></label>
+                                <div class="col-12 col-sm">
+                                <div class="btn-group align-sm-center" data-toggle="buttons">
+                                    <label class="btn btn-success btn-sm active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> Non-smoking
+                                    </label>
+                                    <label class="btn btn-danger btn-sm">
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
+                                    </label>
                                 </div>
+                            </div>
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="form-group align-sm-center row">
-                                <label class="col-12 col-sm-2 col-form-label"><strong>Date and Time</strong></label>
-                                <div class="col-12 col-sm-4">
-                                    <div class="input-group">                                        
-                                        <input type="text" class="form-control" id="date" name="date" placeholder="Date">
+                            <div class="form-group row">
+                                <label class="col-12 col-sm-2 col-form-label align-sm-center"><strong>Date and Time</strong></label>
+                                <div class="align-sm-center row">
+                                    <div class="col-12 col-sm-4">
+                                        <div class="input-group">                                        
+                                            <input type="text" class="form-control" id="date" name="date" placeholder="Date">
+                                        </div>
                                     </div>
-                                </div>
                                 <div class="col-12 col-sm-4">
-                                    <div class="input-group">                                        
-                                        <input type="text" class="form-control" id="time" name="time" placeholder="Time">
-                                    </div>
+                                        <div class="input-group">                                        
+                                            <input type="text" class="form-control" id="time" name="time" placeholder="Time">
+                                        </div>
                                 </div>
+                                </div>                
                             </div> 
+                        </div>
+                        <div class="form-row">
+                            <div class="offset-sm-2 col-md-10">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary">Reserve</button>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -237,64 +249,8 @@
     			<p class="d-none d-sm-block">Award winning three-star Michelin chef with wide international experience<br>having worked closely with whos-who in the culinary world, he specializes in<br>creating mouthwatering indo-italian fusion experiences</p>
     		</div>
     	</div>
-
-        <div class="row row-content justify-content-center">
-            <div class="col col-sm-8 align-self-center">
-                <div class="card">
-                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-                    <div class="card-block">
-                        <form id="reservetable">
-                            <div class="form-group container align-items-center">
-                                <label class="col-12 col-sm-2 col-form-label">Number of Guest</label>
-                                <div class="form-check form-check-inline object">
-                                    <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" id="numberofguest1" name="numberofguest" value="1"> 1 
-                                    </label>
-                                    <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" id="numberofguest2" name="numberofguest" value="2"> 2
-                                    </label>
-                                    <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" id="numberofguest3" name="numberofguest" value="2"> 3
-                                    </label>
-                                    <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" id="numberofguest4" name="numberofguest" value="2"> 4
-                                    </label>
-                                    <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" id="numberofguest5" name="numberofguest" value="2"> 5
-                                    </label>
-                                    <label class="form-check-label">
-                                        <input type="radio" class="form-check-input" id="numberofguest6" name="numberofguest" value="2"> 6
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="form-group row object">
-                                <label class="col-12 col-sm-2 col-form-label">Date and Time</label>
-                                <div class="col-12 col-sm-3">
-                                    <div class="input-group">
-                                        <i class="input-group-addon fa fa-calendar" aria-hidden="true"></i>
-                                        <input type="text" class="form-control" id="date" name="date">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-3">
-                                    <div class="input-group">
-                                        <i class="input-group-addon fa fa-clock-o" aria-hidden="true"></i>
-                                        <input type="text" class="form-control" id="time" name="time">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="offset-sm-2 col-md-10 object">
-                                    <button type="submit" class="btn btn-primary">Reserve</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-
-	</div>
+</div>
 
     <footer class="footer" id="footer">
         <div class="container">
