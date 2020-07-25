@@ -63,7 +63,12 @@
 .sectionB{
 	padding: 2px 2px 2px 2px;
 }
-
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
 	h1{
