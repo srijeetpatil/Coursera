@@ -69,6 +69,13 @@
     bottom: 0px;
     z-index: 1;
 }
+.modal-mod {
+	background: #D1C4E9;
+}
+
+.modal-header {
+	background: #512DA8;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
 	h1{

@@ -4,9 +4,10 @@
   "description": "This is a test",
   "main": "bootstrap.bundle.js",
   "scripts": {
-    "start": "npm run lite"
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "lite": "lite-server"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o scss/"
   },
   "repository": {
     "type": "git",
